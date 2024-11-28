@@ -19,10 +19,7 @@ body {
 }
 
 .img-responsive-2 {
-  max width: 100%
-  
-    
-   
+  max-width: 100%;
 }
 
 .grid-2-columns {
