@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: ;
 }
 
 .container {
@@ -15,15 +14,25 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
-}
-
-.img-responsive-2 {
+  min-height: 100%;
+  object-fit: cover;
   max-width: 100%;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.madinah-column {
+  background-image: url("../images/masid-al-nabawi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.madinah-content {
+  padding: 12px;
 }
 
 .grid-3-columns-with-first-narrow {
