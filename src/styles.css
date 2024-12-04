@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
 
@@ -22,6 +25,14 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: white;
 }
 
 .madinah-column {
@@ -40,9 +51,13 @@ body {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #f8f8f8;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -91,8 +106,7 @@ header a {
   background: white;
 }
 
-main {
-}
+
 
 main h3 {
   color: #272044;
@@ -101,6 +115,22 @@ main h3 {
   opacity: 0.8;
   line-height: 1.5;
   margin: 0;
+}
+
+main h4 {
+  font-weight: 700 ;
+  font-size: 24px ;
+  line-height: 1.5;
+  color: #272044;
+  
+}
+
+main h5 {
+ font-weight: 700 ;
+  font-size: 13px ;
+  line-height: 1.5;
+  color: #272044;
+
 }
 
 main p {
