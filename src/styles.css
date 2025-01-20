@@ -19,7 +19,10 @@ body {
 .img-responsive {
   min-height: 100%;
   object-fit: cover;
-  max-width: 100%;
+}
+
+.img-responsive.restaurant-image {
+  width: 100%;
   display: block;
 }
 
@@ -37,6 +40,14 @@ body {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 .card-body {
   padding: 30px;
 }
@@ -203,7 +214,7 @@ footer a {
   text-decoration: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   header {
     padding: 60px 0;
   }
@@ -224,5 +235,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
