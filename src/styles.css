@@ -20,6 +20,7 @@ body {
   min-height: 100%;
   object-fit: cover;
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
@@ -36,6 +37,14 @@ body {
   margin: 30px 0;
 }
 
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
 .btn {
   display: block;
   color: white;
@@ -46,7 +55,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color:#462cb3 ;
+  background-color: #462cb3;
   text-decoration: none;
 }
 .madinah-column {
@@ -132,14 +141,16 @@ main h3 {
 main h4 {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
+  margin: 0;
 }
 
 main h5 {
   font-weight: 700;
   font-size: 13px;
-  line-height: 1.5;
+  margin: 0;
+  line-height: 1;
   color: #272044;
 }
 
